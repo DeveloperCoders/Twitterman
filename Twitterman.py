@@ -1,5 +1,7 @@
 # -*- coding: cp1252 -*-
 #Created by Lewin
+#Developer: developercodersgroup@gmail.com
+
 import pygame, sys,random,easygui,pickle,os
 
 
@@ -59,7 +61,7 @@ screen.fill([255, 255, 255])
 x = 0
 pygame.draw.rect(screen, [0,255,0],[1,1,1,51], 0)
 pygame.display.flip()
-y = 340               #höhe von der Figur
+y = 340               #hÃ¶he von der Figur
 right = True
 clock = pygame.time.Clock() 
 jump = False
