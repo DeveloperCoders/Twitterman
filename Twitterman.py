@@ -86,7 +86,6 @@ level_re = 5*level
 area = int(new_p.get_area())
 area_level = area*3
 a_color = area_colors[area]
-lose = pygame.mixer.Sound("lose.wav")
 p2font = pygame.font.Font(None,50)
 level_font = p2font.render("Level {0} / Win: {1}".format(level,level_re),1,(255,0,0))
 upfont = pygame.font.Font(None,300)
